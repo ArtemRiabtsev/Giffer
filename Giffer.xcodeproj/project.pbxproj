@@ -17,6 +17,9 @@
 		F40BA60124B0CB070011417C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BA60024B0CB070011417C /* Router.swift */; };
 		F40BA60324B0CB3A0011417C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BA60224B0CB3A0011417C /* ViewController.swift */; };
 		F40BA60524B0CC3E0011417C /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BA60424B0CC3E0011417C /* Typealiases.swift */; };
+		F40BA60C24B0CF9A0011417C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BA60B24B0CF9A0011417C /* View.swift */; };
+		F40BA60E24B0CFC50011417C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BA60D24B0CFC50011417C /* TextField.swift */; };
+		F40BA61024B0CFD50011417C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BA60F24B0CFD50011417C /* CollectionViewCell.swift */; };
 		F4874AB924B070D700B08384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4874AB824B070D700B08384 /* AppDelegate.swift */; };
 		F4874AC224B070D900B08384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4874AC124B070D900B08384 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -34,6 +37,9 @@
 		F40BA60024B0CB070011417C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		F40BA60224B0CB3A0011417C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F40BA60424B0CC3E0011417C /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = ../Typealiases.swift; sourceTree = "<group>"; };
+		F40BA60B24B0CF9A0011417C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F40BA60D24B0CFC50011417C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		F40BA60F24B0CFD50011417C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		F4874AB524B070D700B08384 /* Giffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4874AB824B070D700B08384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4874AC124B070D900B08384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 		F40BA60624B0CC5E0011417C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F40BA60A24B0CF820011417C /* UI */,
 				F40BA60724B0CC730011417C /* Base Typealiases */,
 				F40BA60924B0CC8B0011417C /* MVVM */,
 			);
@@ -124,6 +131,16 @@
 				F40BA60024B0CB070011417C /* Router.swift */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		F40BA60A24B0CF820011417C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F40BA60B24B0CF9A0011417C /* View.swift */,
+				F40BA60D24B0CFC50011417C /* TextField.swift */,
+				F40BA60F24B0CFD50011417C /* CollectionViewCell.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		F4874AAC24B070D700B08384 = {
@@ -310,11 +327,14 @@
 				F40BA60524B0CC3E0011417C /* Typealiases.swift in Sources */,
 				F40BA5F424B075780011417C /* Fonts.swift in Sources */,
 				F40BA5F624B075880011417C /* Localization.swift in Sources */,
+				F40BA60E24B0CFC50011417C /* TextField.swift in Sources */,
 				F40BA60124B0CB070011417C /* Router.swift in Sources */,
 				F4874AB924B070D700B08384 /* AppDelegate.swift in Sources */,
+				F40BA60C24B0CF9A0011417C /* View.swift in Sources */,
 				F40BA60324B0CB3A0011417C /* ViewController.swift in Sources */,
 				F40BA5FF24B0CAF10011417C /* ViewModel.swift in Sources */,
 				F40BA5F224B075630011417C /* Assets.swift in Sources */,
+				F40BA61024B0CFD50011417C /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
