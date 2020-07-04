@@ -1,0 +1,18 @@
+strings:
+ inputs: Giffer/Resources/Localizable.strings
+ outputs:
+   templateName: flat-swift4
+   output: Giffer/Resources/SwiftGenGenerated/Localization.swift
+   params:
+        enumName: Localized
+   
+xcassets:
+ inputs: Giffer/Resources/Assets.xcassets
+ outputs:
+   templateName: swift4
+   output: Giffer/Resources/SwiftGenGenerated/Assets.swift
+fonts:
+ inputs: Giffer/Resources/Fonts
+ outputs:
+   templateName: swift4
+   output: Giffer/Resources/SwiftGenGenerated/Fonts.swift
