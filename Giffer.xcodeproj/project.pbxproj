@@ -23,15 +23,18 @@
 		F4874AB924B070D700B08384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4874AB824B070D700B08384 /* AppDelegate.swift */; };
 		F4874AC224B070D900B08384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4874AC124B070D900B08384 /* Assets.xcassets */; };
 		F488EE7D24C831BC00DB068A /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE7C24C831BC00DB068A /* Screens.swift */; };
-		F488EE8224C834A100DB068A /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE7F24C834A100DB068A /* SplashRouter.swift */; };
-		F488EE8324C834A100DB068A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE8024C834A100DB068A /* SplashViewController.swift */; };
-		F488EE8424C834A100DB068A /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE8124C834A100DB068A /* SplashViewModel.swift */; };
 		F488EE8E24C8591E00DB068A /* MyappGIF-downsized_large.gif in Resources */ = {isa = PBXBuildFile; fileRef = F488EE8D24C8591E00DB068A /* MyappGIF-downsized_large.gif */; };
 		F488EE9124C85B9A00DB068A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE9024C85B9A00DB068A /* Services.swift */; };
 		F488EE9424C85BCC00DB068A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE9324C85BCC00DB068A /* Service.swift */; };
 		F488EE9724C85E7400DB068A /* LocaleGifService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE9624C85E7400DB068A /* LocaleGifService.swift */; };
 		F488EE9924C85F3A00DB068A /* LocaleGifServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE9824C85F3A00DB068A /* LocaleGifServiceImpl.swift */; };
 		F488EE9B24C86B3F00DB068A /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EE9A24C86B3F00DB068A /* UIView+Extention.swift */; };
+		F488EEBE24C88A5900DB068A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EEBB24C88A5900DB068A /* MainViewController.swift */; };
+		F488EEBF24C88A5900DB068A /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EEBC24C88A5900DB068A /* MainRouter.swift */; };
+		F488EEC024C88A5900DB068A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EEBD24C88A5900DB068A /* MainViewModel.swift */; };
+		F488EEC424C88A6F00DB068A /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EEC124C88A6F00DB068A /* SplashViewModel.swift */; };
+		F488EEC524C88A6F00DB068A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EEC224C88A6F00DB068A /* SplashViewController.swift */; };
+		F488EEC624C88A6F00DB068A /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EEC324C88A6F00DB068A /* SplashRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,15 +58,18 @@
 		F4874AC124B070D900B08384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4874AC624B070D900B08384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		F488EE7C24C831BC00DB068A /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
-		F488EE7F24C834A100DB068A /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashRouter.swift; path = ../../Pods/SplashRouter.swift; sourceTree = "<group>"; };
-		F488EE8024C834A100DB068A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = ../../Pods/SplashViewController.swift; sourceTree = "<group>"; };
-		F488EE8124C834A100DB068A /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashViewModel.swift; path = ../../Pods/SplashViewModel.swift; sourceTree = "<group>"; };
 		F488EE8D24C8591E00DB068A /* MyappGIF-downsized_large.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "MyappGIF-downsized_large.gif"; sourceTree = "<group>"; };
 		F488EE9024C85B9A00DB068A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		F488EE9324C85BCC00DB068A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		F488EE9624C85E7400DB068A /* LocaleGifService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleGifService.swift; sourceTree = "<group>"; };
 		F488EE9824C85F3A00DB068A /* LocaleGifServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleGifServiceImpl.swift; sourceTree = "<group>"; };
 		F488EE9A24C86B3F00DB068A /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extention.swift"; path = "../UIView+Extention.swift"; sourceTree = "<group>"; };
+		F488EEBB24C88A5900DB068A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F488EEBC24C88A5900DB068A /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		F488EEBD24C88A5900DB068A /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F488EEC124C88A6F00DB068A /* SplashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		F488EEC224C88A6F00DB068A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F488EEC324C88A6F00DB068A /* SplashRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,9 +213,8 @@
 		F488EE7E24C8332000DB068A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F488EE7F24C834A100DB068A /* SplashRouter.swift */,
-				F488EE8024C834A100DB068A /* SplashViewController.swift */,
-				F488EE8124C834A100DB068A /* SplashViewModel.swift */,
+				F488EEB424C889E600DB068A /* Splash */,
+				F488EEB324C889D700DB068A /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -247,6 +252,26 @@
 				F488EE9A24C86B3F00DB068A /* UIView+Extention.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		F488EEB324C889D700DB068A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F488EEBC24C88A5900DB068A /* MainRouter.swift */,
+				F488EEBB24C88A5900DB068A /* MainViewController.swift */,
+				F488EEBD24C88A5900DB068A /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F488EEB424C889E600DB068A /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F488EEC324C88A6F00DB068A /* SplashRouter.swift */,
+				F488EEC224C88A6F00DB068A /* SplashViewController.swift */,
+				F488EEC124C88A6F00DB068A /* SplashViewModel.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,26 +428,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F488EE8424C834A100DB068A /* SplashViewModel.swift in Sources */,
 				F40BA60524B0CC3E0011417C /* Typealiases.swift in Sources */,
 				F40BA5F424B075780011417C /* Fonts.swift in Sources */,
-				F488EE8224C834A100DB068A /* SplashRouter.swift in Sources */,
 				F488EE9924C85F3A00DB068A /* LocaleGifServiceImpl.swift in Sources */,
+				F488EEC424C88A6F00DB068A /* SplashViewModel.swift in Sources */,
 				F40BA5F624B075880011417C /* Localization.swift in Sources */,
+				F488EEC024C88A5900DB068A /* MainViewModel.swift in Sources */,
 				F488EE7D24C831BC00DB068A /* Screens.swift in Sources */,
 				F488EE9B24C86B3F00DB068A /* UIView+Extention.swift in Sources */,
-				F488EE8324C834A100DB068A /* SplashViewController.swift in Sources */,
 				F40BA60E24B0CFC50011417C /* TextField.swift in Sources */,
 				F40BA60124B0CB070011417C /* Router.swift in Sources */,
 				F4874AB924B070D700B08384 /* AppDelegate.swift in Sources */,
 				F40BA60C24B0CF9A0011417C /* View.swift in Sources */,
 				F488EE9424C85BCC00DB068A /* Service.swift in Sources */,
 				F40BA60324B0CB3A0011417C /* ViewController.swift in Sources */,
+				F488EEC624C88A6F00DB068A /* SplashRouter.swift in Sources */,
 				F40BA5FF24B0CAF10011417C /* ViewModel.swift in Sources */,
+				F488EEBF24C88A5900DB068A /* MainRouter.swift in Sources */,
+				F488EEBE24C88A5900DB068A /* MainViewController.swift in Sources */,
 				F488EE9124C85B9A00DB068A /* Services.swift in Sources */,
 				F40BA5F224B075630011417C /* Assets.swift in Sources */,
 				F488EE9724C85E7400DB068A /* LocaleGifService.swift in Sources */,
 				F40BA61024B0CFD50011417C /* CollectionViewCell.swift in Sources */,
+				F488EEC524C88A6F00DB068A /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
