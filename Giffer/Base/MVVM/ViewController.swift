@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import SnapKit
 
 public class ViewController<R: Router, VM: ViewModel<R>>: UIViewController {
     

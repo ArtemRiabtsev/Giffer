@@ -10,6 +10,8 @@ target 'Giffer' do
   pod 'SwiftLint'
   pod 'SwiftGen', '~> 6.0'
   pod 'AlamofireImage'
+  pod 'Giphy'
+  pod 'SnapKit', '~> 5.0.0'
 
 # Rx
   pod 'RxSwift'

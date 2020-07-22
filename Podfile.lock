@@ -2,7 +2,22 @@ PODS:
   - Alamofire (5.2.1)
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
+  - DeepDiff (2.3.1)
   - Differentiator (4.0.1)
+  - Giphy (1.3.0):
+    - DeepDiff
+    - libwebp
+    - PINCache
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - PINCache (2.3)
   - ReachabilitySwift (4.3.1)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
@@ -18,15 +33,18 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SnapKit (5.0.1)
   - SwiftGen (6.2.0)
   - SwiftLint (0.38.0)
 
 DEPENDENCIES:
   - AlamofireImage
+  - Giphy
   - RxCocoa
   - RxDataSources
   - RxReachability
   - RxSwift
+  - SnapKit (~> 5.0.0)
   - SwiftGen (~> 6.0)
   - SwiftLint
 
@@ -34,29 +52,39 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - DeepDiff
     - Differentiator
+    - Giphy
+    - libwebp
+    - PINCache
     - ReachabilitySwift
     - RxCocoa
     - RxDataSources
     - RxReachability
     - RxRelay
     - RxSwift
+    - SnapKit
     - SwiftGen
     - SwiftLint
 
 SPEC CHECKSUMS:
   Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  DeepDiff: e5ae6c50d0321568e4508cec5930b9f10bb293fc
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Giphy: 7296cc64929aabf325655ac1472e1ec96b665ed4
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
   ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxReachability: 21d3e96f39bc166a21c357e923f47dec148ca97b
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftGen: 77e88c8609381660cc1084c5ba8e1dc6065de692
   SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
 
-PODFILE CHECKSUM: 511978d93cc527e6219f7a75104eec8edeea3c72
+PODFILE CHECKSUM: 8f450c066f23542c64a19bd3c496a5641ee4c4f4
 
 COCOAPODS: 1.9.1

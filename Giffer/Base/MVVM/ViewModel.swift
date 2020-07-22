@@ -12,7 +12,7 @@ import RxSwift
 public class ViewModel<R: Router>: NSObject {
     
     let router: R
-//    let services = Services.shared
+    let services = Services.shared
     
     #if DEBUG
     deinit {
